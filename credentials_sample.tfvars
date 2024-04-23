@@ -1,0 +1,19 @@
+proxmox_api_url = "https://srv.proxmox.node/api2/json"  # Your Proxmox IP Address
+proxmox_api_token_id = "terraform-prov@pve!terraform"  # API Token ID
+proxmox_api_token_secret = "dgfl8d47-615z-0712-bc7c-46e5a4ed8c5"
+ssh_key = "ssh-ed25519 AAAAC3......"
+
+template_name = "ubuntu22.04"
+target_node = "srv"
+cores = 2
+sockets = 1
+memory = 4096
+disk_size = "20G"
+disk_storage = "local-lvm"
+network_bridge = "vmbr0"
+disk_type = "scsi"
+network_model = "virtio"
+network_ip = "192.168.1.24"
+network_gateway = "192.168.1.1"
+user_name = "k3suser"
+user_password = "password" 

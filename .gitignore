@@ -1,0 +1,8 @@
+# credentials.tfvars 
+credentials.tfvars
+
+.*/
+*.terraform.*
+*.tfplan
+*.tfstate
+*.backup
