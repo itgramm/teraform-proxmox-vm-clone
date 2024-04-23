@@ -6,3 +6,4 @@ credentials.tfvars
 *.tfplan
 *.tfstate
 *.backup
+.gitignore
